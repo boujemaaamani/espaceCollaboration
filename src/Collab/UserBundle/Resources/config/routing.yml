@@ -1,0 +1,8 @@
+collab_user_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CollabUserBundle:Default:index }
+
+registration_etudiant:
+    path:     /register/etudiant
+    defaults: {_controller: FOSUserBundle:Registration:register}
+
